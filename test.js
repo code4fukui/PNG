@@ -6,7 +6,8 @@ Deno.test("sync", () => {
   img[0] = 0xff;
   img[3] = 0xff;
   console.log(img);
-  const bin = PNG.encode(img, 1, 1);
+  const imgd = { data: img, width: 1, height: 1 };
+  const bin = PNG.encode(imgd);
   console.log(bin, typeof bin);
   //await Deno.writeFile("test.png", bin);
   
