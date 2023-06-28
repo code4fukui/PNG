@@ -12,15 +12,8 @@ const img2 = PNG.decode(bin);
 console.log(img2);
 ```
 
-## async version
+## dependencies
 
-import as needed
-```js
-import { PNG } from "https://code4fukui.github.io/PNG/PNG_async.js";
+- [PNGEncoder](https://github.com/taisukef/PNGEncoder/)
+- [pngjs](https://github.com/taisukef/pngjs/)
 
-const bin = await PNG.encode(new Uint8ClampedArray([0xff, 0, 0, 0xff]), 1, 1);
-console.log(bin, typeof bin);
-
-const img2 = await PNG.decode(bin);
-console.log(img2);
-```
