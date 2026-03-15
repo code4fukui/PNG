@@ -1,9 +1,8 @@
 # PNG
 
-Pure JavaScript PNG encoder / decoder
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## Demo
-The project provides a simple demo in the `sample.js` file.
+Pure JavaScript PNG encoder/decoder
 
 ## Features
 - Encode and decode PNG images in pure JavaScript

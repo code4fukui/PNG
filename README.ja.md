@@ -1,9 +1,13 @@
 # PNG
 
-Pure JavaScript PNG エンコーダー/デコーダー
+Pure JavaScript製のPNGエンコーダー/デコーダー
 
-## デモ
-以下のサンプルコードを実行すると、PNGデータを生成・デコードできます。
+## 機能
+- PNGデータの生成
+- PNGデータのデコード
+
+## 使い方
+`import { PNG } from "https://code4fukui.github.io/PNG/PNG.js";`でインポートして使用できます。以下のサンプルコードのように、PNGデータの生成やデコードができます。
 
 ```js
 import { PNG } from "https://code4fukui.github.io/PNG/PNG.js";
@@ -14,16 +18,6 @@ console.log(bin, typeof bin);
 const img2 = PNG.decode(bin);
 console.log(img2);
 ```
-
-## 機能
-- PNGデータの生成
-- PNGデータのデコード
-
-## 必要環境
-特に必要ありません。
-
-## 使い方
-`import { PNG } from "https://code4fukui.github.io/PNG/PNG.js";`でインポートして使用できます。
 
 ## ライセンス
 MIT License
