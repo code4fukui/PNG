@@ -26,4 +26,4 @@ console.log(img2);
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).

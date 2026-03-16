@@ -5,6 +5,7 @@ Pure JavaScript製のPNGエンコーダー/デコーダー
 ## 機能
 - PNGデータの生成
 - PNGデータのデコード
+- 有効なPNGデータかどうかの判定
 
 ## 使い方
 `import { PNG } from "https://code4fukui.github.io/PNG/PNG.js";`でインポートして使用できます。以下のサンプルコードのように、PNGデータの生成やデコードができます。
